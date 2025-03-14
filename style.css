@@ -164,7 +164,7 @@ body{
     border-right: 200px solid #4aaaff;
     border-top: 95px solid transparent;
     border-bottom: 95px solid transparent;
-    left: 100px;
+    left: 120px;
     top: 10px;
     width: 0;
     height: 0;
@@ -187,7 +187,7 @@ body{
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.07);
     top: 300px;
-    left: -15px;
+    left: 10px;
     z-index: -1;
     animation: scale 3s linear infinite;
 }
