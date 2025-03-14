@@ -37,8 +37,8 @@ body{
     width: 227px;
     height: 227px;
     transform: rotate(45deg);
-    top: -112px;
-    left: 46px;
+    top: -113px;
+    left: 48px;
     border-radius: 30px 0 0 0;
 }
 .card{
@@ -47,7 +47,7 @@ body{
     width: 300px;
     height: 180px;
     top: 10px;
-    left: -10px;
+    left: 10px;
     box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.4);
 }
 .card:before{
@@ -63,7 +63,7 @@ body{
 .text{
     position: absolute;
     font-family: 'Brush Script MT', cursive;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     line-height: 25px;
     top: 25px;
@@ -73,21 +73,21 @@ body{
 .heart{
     background-color: #d62828;
     display: inline-block;
-    height: 30px;
+    height: 25px;
     margin: 0 10px;
     position: relative;
     top: 120px;
     left: 130px;
     transform: rotate(-45deg);
-    width: 30px;
+    width: 25px;
 }
 .heart:before, .heart:after{
     content: "";
     background-color: #d62828;
     border-radius: 50%;
-    height: 30px;
+    height: 25px;
     position: absolute;
-    width: 30px;
+    width: 25px;
 }
 .heart:before{
     top: -15px;
@@ -140,23 +140,23 @@ body{
     top: 0;
 }
 .one{
-    left: 15px;
+    left: 25px;
     animation: heart 1s ease-out infinite;
 }
 .two{
-    left: 35px;
+    left: 45px;
     animation: heart 1.3s ease-out infinite;
 }
 .three{
-    left: 55px;
+    left: 65px;
     animation: heart 1.6s ease-out infinite;
 }
 .four{
-    left: 75px;
+    left: 85px;
     animation: heart 1.9s ease-out infinite;
 }
 .five{
-    left: 95px;
+    left: 105px;
     animation: heart 2.2s ease-out infinite;
 }
 .front{
