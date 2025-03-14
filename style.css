@@ -224,10 +224,10 @@ body{
         top: 12px;
     }
     .text{
-        font-size: 27px;
+        font-size: 35px;
         line-height: 25px;
         top: 85px;
-        left: 95px;
+        left: 55px;
     }
     .heart{
         height: 30px;
@@ -263,8 +263,49 @@ body{
         height: 20px;
     
     }
+    .one{
+        left: 65px;
+        animation: heart 1s ease-out infinite;
+    }
+    .two{
+        left: 95px;
+        animation: heart 1.3s ease-out infinite;
+    }
+    .three{
+        left: 125px;
+        animation: heart 1.6s ease-out infinite;
+    }
+    .four{
+        left: 155px;
+        animation: heart 1.9s ease-out infinite;
+    }
+    .five{
+        left: 185px;
+        animation: heart 2.2s ease-out infinite;
+    }
+    .front{
+        position: absolute;
+        border-right: 350px solid #4aaaff;
+        border-top: 150px solid transparent;
+        border-bottom: 150px solid transparent;
+        left: 150px;
+        top: 0;
+        width: 0;
+        height: 0;
+        z-index: 10;
+    }
+    .front:before{
+        position: absolute;
+        content: "";
+        border-left: 500px solid #52a1e8;
+        border-top: 290px solid transparent;
+        left: -150px;
+        top: -140px;
+        width: 0;
+        height: 0;
+    }
     .shadow{
-        width: 300px;
+        width: 500px;
         height: 25px;
         top: 395px;
         left: 2px;
